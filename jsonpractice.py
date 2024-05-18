@@ -32,7 +32,7 @@ loaded_data['interests'].append('Plushies')
 
 #Rewrite json file to implement changes
 with open('data.json','w') as json_file:
-    json.dump(data,json_file, indent = 4)
+    json.dump(loaded_data,json_file, indent = 4)
 
 #print confirmation of changes
 print(loaded_data)
